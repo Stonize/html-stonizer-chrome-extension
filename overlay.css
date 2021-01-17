@@ -1,0 +1,19 @@
+#blockchain_overlay_id {
+    position: fixed;
+    width: 70px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#blockchain_overlay_loading_id {
+    position: fixed;
+    width: 70px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+}

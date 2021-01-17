@@ -1,0 +1,20 @@
+{
+  "name": "Html Stonizer",
+  "version": "0.0.1",
+  "author": "Michele Mastrogiovanni @ Stonize,",
+  "description": "Put your HTML fragments in the stone!",
+  "manifest_version": 2,
+  "permissions": ["https://html-stonizer.stonize.com/*"],
+  "browser_action": {
+    "default_title": "Html-Stonizer",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["dist/htmlstonizer.umd.js"],
+      "css": ["overlay.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

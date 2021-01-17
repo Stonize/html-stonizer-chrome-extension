@@ -1,0 +1,17 @@
+{
+  "name": "htmlstonizer",
+  "version": "0.0.1",
+  "description": "Save HTML fragment in Blockchain to assure the unmodifiability of your assessments.",
+  "main": "index.js",
+  "author": "Michele Mastrogiovanni <michele.mastrogiovanni@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "microbundle     -i main.js -f umd --name htmlstonizer -o dist --inline all",
+    "dev": "microbundle watch -i main.js -f umd --name htmlstonizer -o dist --inline all",
+    "pre-release": "rm -rf node_modules && npm version patch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.9.0"
+  }
+}
