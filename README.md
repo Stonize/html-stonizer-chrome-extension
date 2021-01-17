@@ -1,13 +1,8 @@
 # html-stonizer-chrome-extension
 
-<h1 align="center"> Salvini-Blocker </h1>
-<p align="center"> Like Ad-Block, but for Matteo Salvini  </p>
+<h1 align="center"> Html Stonizer </h1>
 
-<img src="/docs/Salvini-Block.png" align="center" />
-
-# Installation
-
-Install Salvini-Blocker from the [Chrome Web Store](https://chrome.google.com/webstore/detail/salvini-blocker/bgceopfkpahkhabbcjegjmanckmmdlde), it's free!
+<p align="center">Write your data in the Stone!</p>
 
 # License
 
