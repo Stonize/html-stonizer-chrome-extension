@@ -24,9 +24,14 @@ document.addEventListener("DOMContentLoaded", () => {
     loadingDiv.innerHTML = overlayLoadingDiv;
     document.body.appendChild(loadingDiv);
 
+    let TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDI2OTk0OTAsImVtYWlsIjoiY2hyb21lLWV4dGVuc2lvbi0wLjAuMUBzdG9uaXplLmNvbSIsImlhdCI6MTYxMTE2MzQ5MH0.C18cEWvaWPJpvgMVJykVOYXTwkdgBkLyFli9d5J3rSE"
+
     fetch('https://html-stonizer.stonize.com/verify', {
         method: "POST",
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + TOKEN 
+        },
         body: JSON.stringify({
             url: url
         })
